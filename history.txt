@@ -1,0 +1,47 @@
+ 1002  clear
+ 1003  ls
+ 1004  cd CodersSchool
+ 1005  ls
+ 1006  mkdir git-majonez
+ 1007  cd git-majonez
+ 1008  git init
+ 1009  vim main.cpp
+ 1010  cat main.cpp
+ 1011  git add main.cpp
+ 1012  git commit -m "Initial commit"
+ 1013  vim main.cpp
+ 1014  git add main.cpp
+ 1015  git commit -m "Farewell changed"
+ 1016  it remote add origin https://github.com/jakubkaczmarski/git-majonez.git
+ 1017  git remote add origin https://github.com/jakubkaczmarski/git-majonez.git
+ 1018  git push -u origin master
+ 1019  git checkout cs
+ 1020  git branch cs
+ 1021  git branch -a
+ 1022  git checkout cs
+ 1023  git log
+ 1024  git reset HEAD^
+ 1025  git stage
+ 1026  git reset HEAD^
+ 1027  git log
+ 1028  clear
+ 1029  git log
+ 1030  vim main.cpp
+ 1031  cat main.cpp
+ 1032  git add main.cpp
+ 1033  git commit -m "Greetings"
+ 1034  git push origin cs
+ 1035  git checkout master
+ 1036  git merge cs
+ 1037  git status
+ 1038  vim main.cpp
+ 1039  git add main.cpp
+ 1040  git status
+ 1041  git status
+ 1042  git commit 
+ 1043  history
+ 1044  touch history.txt
+ 1045  history -50
+ 1046  history -47 << history.txt\n\n\n';d\ndwa;.\n\ncsa
+ 1047  cat history.txt
+ 1048  history -47 << history.txt
